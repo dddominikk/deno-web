@@ -1,4 +1,4 @@
-import routes from '/routes.ts';
+import routes from './routes.ts';
 
 function handler(request: Request) {
   const routeKeys = Object.keys(routes);
