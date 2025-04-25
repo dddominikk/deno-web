@@ -72,8 +72,7 @@ function basicLayout(
       </main>
       <footer class="flex justify-center w-full text-xs text-center py-6 px-6 bg-slate-900 text-slate-50">
         <span class="mr-2"><a href="https://attention-spa.com" class="no-underline hover:underline">Dominik Bošnjak</a></span>
-        <span>|</span>
-        <span>${new Date( Date.now() ).getFullYear()}</span>
+        <span>|  ${new Date( Date.now() ).getFullYear()}</span>
       </footer>
 
       <script src="/public/js/script.js" defer></script>
