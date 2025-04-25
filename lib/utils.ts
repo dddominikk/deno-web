@@ -71,9 +71,8 @@ function basicLayout(
         ${htmlContent}
       </main>
       <footer class="flex justify-center w-full text-xs text-center py-6 px-6 bg-slate-900 text-slate-50">
-        <span class="mr-2">by <a href="https://brunobernardino.com" class="no-underline hover:underline">Bruno Bernardino</a></span>
-        <span>//</span>
-        <span class="ml-2">view <a href="https://github.com/BrunoBernardino/deno-code-examples" class="no-underline hover:underline">source code</a></span>
+        <span class="mr-2"><a href="https://attention-spa.com" class="no-underline hover:underline">Dominik Bošnjak</a></span>
+        <span>|</span> ${Date.now().getFullYear()}
       </footer>
       <script src="/public/js/script.js" defer></script>
     </body>
